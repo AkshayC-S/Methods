@@ -1,0 +1,17 @@
+class Mobile{
+	
+	static void printStr(String methphone[]){
+		for(int index=0; index<methphone.length; index++){
+			System.out.print(methphone[index]+"\t");
+		}
+		
+	}	
+	
+	public static void main(String []aks){
+		String phone[]={"jhgv","yyjtr","kjytf","jhtf","jtycrd"};
+		printStr(phone);
+		phone[2]= "Idly vada";
+		System.out.println();
+		printStr(phone);
+	}
+}

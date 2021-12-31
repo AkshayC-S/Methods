@@ -1,0 +1,18 @@
+class MethodsIdly{
+	
+	
+	static void printArry(String menu1[]){
+			for(int index=0;index<menu1.length;index++){
+				System.out.print(menu1[index]+"\t");
+			}
+	}
+	
+	public static void main(String []aks){
+	
+		String menu[] = {"1","2","3","4","5","6"};
+		printArry(menu);
+		menu[2]= "idly vada";
+		System.out.println();
+		printArry(menu);
+	}
+}
