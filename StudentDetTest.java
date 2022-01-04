@@ -62,7 +62,23 @@ class StudentDetTest{
 
             StudentDet.addName(29,"Mohan");
 			
+			System.out.println("-------------------------------------------------------");
+			
 			StudentDet.printAll();
+			
+			System.out.println("-------------------------------------------------------");
+			
+			System.out.println();
+			
+			StudentDet.updateName("Akshay","Akshay C S");
+			
+			System.out.print("After replacing Akshay with Akshay C S");
+			System.out.println();
+			
+			
+			StudentDet.printAll();
+			
+			System.out.println("-------------------------------------------------------");
 			
 			
 		}
